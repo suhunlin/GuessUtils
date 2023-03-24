@@ -48,7 +48,8 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="160dp"
         android:layout_marginTop="32dp"
-        android:text="Button"
+        android:onClick="guessVerify"
+        android:text="Guess"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/guessCounterView" />
 </androidx.constraintlayout.widget.ConstraintLayout>
